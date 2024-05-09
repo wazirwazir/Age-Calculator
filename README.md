@@ -16,7 +16,8 @@ The Age Calculator is a simple tool that calculates a person's age based on thei
 
 ## Installation
 
-To use the Age Calculator, simply download the project files or clone the repository: git clone https://github.com/wazirwazir/Age-Calculator.git
+To use the Age Calculator, simply download the project files or clone the repository: 
+git clone https://github.com/wazirwazir/Age-Calculator.git
 
 
 Then, open the `index.html` file in your web browser.
