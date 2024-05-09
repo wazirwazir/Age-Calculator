@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 94%);
+    min-height: 90vh;
+}
+.wrapper {
+    padding: 30px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px 10px 150px 10px;
+    background-color: white;
+    box-shadow: 0 0 17px 5px hsl(0, 17%, 88%);
+    max-width: 500px;
+}
+.inputs {
+    display: inline-block;
+    display: flex;
+    
+}
+.in {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    margin: 0;
+    font-weight: bold;
+    color: hsl(0, 1%, 44%);
+    max-width: 130px;
+}
+i {
+    color: red;
+    font-size: 0.8em;
+    max-width: 130px;
+}
+.redin {
+    outline-color: red;
+    border-color: red;
+}
+input {
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 86%);
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    outline-color: hsl(259, 100%, 65%);
+    outline-width: 1px;
+    font-weight: bolder;
+
+    cursor: pointer;
+}
+::placeholder {
+    
+    font-size: 1em;
+}
+.divide {
+    display: flex;
+    align-items: center;
+}
+span {
+    background-color: hsl(0, 0%, 86%);
+    width: 100%;
+    height: 1px;
+}
+button {
+    border: none;
+    cursor: pointer;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+button:hover {
+    background-color: black;
+}
+.result {
+    display: flex;
+    flex-direction: column;
+}
+.span {
+    background-color: transparent;
+    color: hsl(259, 100%, 65%);
+    
+}
+h1 {
+    margin: 5px;
+    font-size: 3.7em;
+    font-style: italic;
+}
+.hide {
+    display: none;
+}
